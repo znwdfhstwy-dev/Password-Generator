@@ -6,8 +6,8 @@ color: rgb(237, 235, 232);
 .appBody {    
     background-color: #1F2937;
     border: 2px solid black;
+    width: 24%;
     min-width: 24%;
-    max-width: 24%;
     padding: 3px 10px 40px 40px;
     margin: auto;
     border-radius: 6px;
@@ -15,7 +15,11 @@ color: rgb(237, 235, 232);
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    
+}
+@media (max-width: 600px) {
+    .appBody {
+        width: 75%;
+    }
 }
 
 .title {
