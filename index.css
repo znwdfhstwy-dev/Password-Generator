@@ -1,0 +1,80 @@
+body {
+background: #10151b;
+color: rgb(237, 235, 232);
+display: flex;
+justify-content: center;
+}
+
+.appBody {    
+    background-color: #1F2937;
+    border: 2px solid black;
+    width: 545px;
+    height: 200px;
+    padding: 3px 10px 40px 40px;
+    margin: 5px ;
+    border-radius: 6px;
+}
+
+.title {
+    font-size: 25px;
+    margin: -20px -10px -30px auto;
+    text-shadow: 0 0 5px black;
+}
+
+#subtitle-El {
+    font-size: 12px;
+    text-shadow: 0 0 5px black;
+    margin: auto auto 20px 5px;
+}
+
+#generateBtn {
+    width: 180px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #317e50;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: rgb(247, 251, 251);
+    text-shadow: 0 0 3px black;
+
+}
+
+.password-box-one {
+    background-color: #2f3742;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 200px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 5px 5px 5px;
+
+}
+.password-box-two {
+    background-color: #2f3742;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 200px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px 5px 5px 5px;
+
+}
+
+#copyAlert {
+    z-index: 3000;
+    background: gainsboro;
+    color: #10151b;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    margin: 15px auto;
+    width: 90px;
+    padding: 3px 6px 3px 6px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    visibility: hidden;
+}
