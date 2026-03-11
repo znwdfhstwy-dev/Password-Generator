@@ -8,6 +8,7 @@ color: rgb(237, 235, 232);
     border: 2px solid black;
     width: 24%;
     min-width: 24%;
+    max-width: 100%;
     padding: 3px 10px 40px 40px;
     margin: auto;
     border-radius: 6px;
@@ -16,9 +17,10 @@ color: rgb(237, 235, 232);
     align-items: flex-start;
     justify-content: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .appBody {
         width: 80%;
+        padding-left: 10px;
     }
 }
 
