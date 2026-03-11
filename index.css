@@ -29,7 +29,6 @@ color: rgb(237, 235, 232);
     margin: -20px -10px -30px auto;
     padding: auto;
     text-shadow: 0 0 5px black;
-    min-width: 20%;
     display: flex;
 }
 
@@ -75,8 +74,9 @@ color: rgb(237, 235, 232);
     height: 25px;
     display: flex;
     margin-left: 20px;
+    margin-right: 25px;
     text-align: center;
-    padding: 10px 5px 5px 5px;
+    padding: 10px 5px 5px 2px;
 
 }
 
